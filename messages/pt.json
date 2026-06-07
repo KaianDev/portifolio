@@ -4,8 +4,8 @@
 	"meta": {
 		"title": "kaian.dev - desenvolvedor frontend"
 	},
-	"header":{
-		"links":{
+	"header": {
+		"links": {
 			"about": "sobre",
 			"stack": "stack",
 			"career": "trajetória",

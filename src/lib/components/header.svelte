@@ -10,7 +10,7 @@
 	let isScrolled = $state(false);
 
 	$effect(() => {
-		function handler(){
+		function handler() {
 			isScrolled = window.scrollY > 0;
 		}
 
@@ -18,11 +18,16 @@
 
 		return () => {
 			window.removeEventListener('scroll', handler);
-		}
-	})
+		};
+	});
 </script>
 
-<header class={["p-4 sticky top-0 z-50 bg-background/50 backdrop-blur-sm h-17", isScrolled && "border-b border-border"]}>
+<header
+	class={[
+		'sticky top-0 z-50 h-17 bg-background/50 p-4 backdrop-blur-sm',
+		isScrolled && 'border-b border-border'
+	]}
+>
 	<div class="mx-auto flex max-w-4xl items-center justify-between">
 		<a href="#start" class="font-heading text-lg font-medium"
 			>kaian<span class="text-primary">.dev</span></a

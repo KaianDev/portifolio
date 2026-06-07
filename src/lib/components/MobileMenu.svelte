@@ -12,9 +12,7 @@
 		<ListIcon />
 	</Sheet.Trigger>
 	<Sheet.Content side="right">
-		<Sheet.Header>
-			<Sheet.Title>Menu</Sheet.Title>
-		</Sheet.Header>
+		<Sheet.Header></Sheet.Header>
 
 		<ul class="flex flex-col gap-2 px-2">
 			{#each NAV_LINKS as link (link.href)}

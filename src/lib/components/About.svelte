@@ -3,7 +3,7 @@
 	import { m } from '$lib/paraglide/messages';
 </script>
 
-<section id="about" class="mx-auto max-w-4xl space-y-3.5 border-t border-border py-17">
+<section id="about" class="mx-auto max-w-4xl space-y-3.5 border-t border-border px-4 py-17">
 	<div class="font-mono text-sm font-medium text-primary">
 		<span class="text-muted-foreground">01</span>
 		{m['about.label']()}
