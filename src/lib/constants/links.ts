@@ -32,3 +32,7 @@ export const SOCIAL_LINKS = {
   github: "https://github.com/kaiandev",
   linkedin: "https://www.linkedin.com/in/kaiandev"
 }
+
+export const EXTERNAL_LINKS = {
+  spawnd: "https://spawnd.gg?utm_source=kaian.dev"
+}
