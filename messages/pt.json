@@ -15,7 +15,6 @@
 		"theme": {
 			"light": "claro",
 			"dark": "escuro",
-			"system": "sistema",
 			"toggle": "alternar tema"
 		},
 		"language": {

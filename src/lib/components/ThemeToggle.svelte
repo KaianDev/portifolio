@@ -6,10 +6,12 @@
  </script>
   
  <Button onclick={toggleMode} variant="outline" size="icon">
-  <SunIcon
+  <MoonIcon
+    aria-label={m["header.theme.light"]()}
     class="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 dark:scale-0 dark:-rotate-90"
   />
-  <MoonIcon
+  <SunIcon
+    aria-label={m["header.theme.dark"]()}
     class="absolute h-[1.2rem] w-[1.2rem] scale-0 rotate-90 dark:scale-100 dark:rotate-0"
   />
   <span class="sr-only">{m["header.theme.toggle"]()}</span>
