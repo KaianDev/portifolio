@@ -22,5 +22,10 @@
 			"en": "inglês",
 			"aria-label": "alternar idioma"
 		}
+	},
+	"hero": {
+		"developer": "Desenvolvedor Frontend",
+		"description": "Interfaces que funcionam, construídas com cuidado.",
+		"location": "Na Nuuvem · Brasil · Remoto"
 	}
 }

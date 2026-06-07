@@ -27,3 +27,8 @@ export const NAV_LINKS: NavLink[] = [
     href: '/#contact'
   }
 ];
+
+export const SOCIAL_LINKS = {
+  github: "https://github.com/kaiandev",
+  linkedin: "https://www.linkedin.com/in/kaiandev"
+}

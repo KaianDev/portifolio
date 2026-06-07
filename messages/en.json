@@ -22,5 +22,10 @@
 			"en": "english",
 			"toggle": "toggle language"
 		}
+	},
+	"hero": {
+		"developer": "Frontend Developer",
+		"description": "Interfaces that work, built with care.",
+		"location": "At Nuuvem · Brazil · Remote"
 	}
 }
