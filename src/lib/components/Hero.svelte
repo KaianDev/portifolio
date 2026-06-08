@@ -7,7 +7,11 @@
 </script>
 
 <section id="start" class="mx-auto max-w-4xl space-y-6 px-4 py-17">
-	<img src={KaianImage} alt="Kaian" class="size-24 rounded-2xl border-2 border-background dark:border-border" />
+	<img
+		src={KaianImage}
+		alt="Kaian"
+		class="size-24 rounded-2xl border-2 border-background dark:border-border"
+	/>
 	<div class="space-y-2.5">
 		<div class="flex items-center gap-2 text-muted-foreground">
 			<span class="size-2 animate-pulse rounded-full bg-primary"></span>

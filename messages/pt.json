@@ -36,5 +36,22 @@
 	"stack": {
 		"label": "stack",
 		"title": "Com o que eu construo."
+	},
+	"career": {
+		"label": "trajetória",
+		"title": "Onde estive, onde estou.",
+		"badge_now": "Atual",
+		"entries": {
+			"startamus": {
+				"date": "Jun 2024",
+				"role": "Desenvolvedor Frontend",
+				"body": "Desenvolvedor frontend na Startamus, consultoria onde trabalhei em projetos para diversos clientes. Num cliente do setor de seguros, participei da migração do frontend de dois sistemas legados em React com classes para Next.js. Em outro, atuei num sistema financeiro — criando um sistema interno do zero e adicionando novas funcionalidades a uma plataforma de empréstimos já existente. Também contribuí com o MVP do spawnd, da Nuuvem, e participei do desenvolvimento de um app híbrido com React Native e Expo para um fórum."
+			},
+			"nuuvem": {
+				"date": "Jan 2026",
+				"role": "Desenvolvedor Frontend",
+				"body": "Desenvolvedor frontend na Nuuvem, trabalhando no spawnd. Faço parte de uma equipe incrível, onde atuo no desenvolvimento de novas features e na manutenção contínua do produto."
+			}
+		}
 	}
 }

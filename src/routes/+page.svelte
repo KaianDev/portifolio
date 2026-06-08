@@ -1,5 +1,6 @@
 <script lang="ts">
 	import About from '$lib/components/About.svelte';
+	import Career from '$lib/components/Career.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import Stack from '$lib/components/Stack.svelte';
@@ -13,10 +14,11 @@
 
 <main>
 	<Header />
-	<div class="relative max-w-4xl mx-auto overflow-hidden">
+	<div class="relative mx-auto max-w-4xl overflow-hidden">
 		<Meteors number={15} />
 		<Hero />
 	</div>
 	<About />
 	<Stack />
+	<Career />
 </main>
