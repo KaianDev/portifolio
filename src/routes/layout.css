@@ -119,6 +119,24 @@
 	--radius-4xl: calc(var(--radius) * 2.6);
 }
 
+@theme {
+	--animate-meteor: meteor 5s linear infinite;
+
+	@keyframes meteor {
+		0% {
+			transform: rotate(215deg) translateX(0);
+			opacity: 1;
+		}
+		70% {
+			opacity: 1;
+		}
+		100% {
+			transform: rotate(215deg) translateX(-500px);
+			opacity: 0;
+		}
+	}
+}
+
 @layer base {
 	* {
 		@apply border-border outline-ring/50;
@@ -127,6 +145,12 @@
 		@apply bg-background text-foreground;
 	}
 	html {
-		@apply font-sans;
+		@apply scroll-pt-17 scroll-smooth font-sans;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		html {
+			scroll-behavior: auto;
+		}
 	}
 }
