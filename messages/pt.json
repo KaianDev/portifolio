@@ -32,5 +32,9 @@
 		"label": "sobre",
 		"title": "Não foi uma linha reta.",
 		"description": "Minha trajetória foi tudo, menos linha reta. Passei nove anos como analista no serviço público, fiz Ciências Contábeis e depois Análise e Desenvolvimento de Sistemas — e foi no desenvolvimento que encontrei o que queria fazer de verdade. Em julho de 2024 recebi meu primeiro “sim” como desenvolvedor. Por um tempo conciliei os dois: analista de dia, dev de noite. Aos 29, larguei tudo e migrei de vez. Hoje atuo como desenvolvedor frontend na Nuuvem, construindo interfaces com SvelteKit, TypeScript e Tailwind no "
+	},
+	"stack": {
+		"label": "stack",
+		"title": "Com o que eu construo."
 	}
 }

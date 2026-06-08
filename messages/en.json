@@ -32,5 +32,9 @@
 		"label": "about",
 		"title": "Not a straight line.",
 		"description": "My path here was anything but straight. I spent nine years as a public sector analyst, studied Accounting, then Systems Analysis and Development — and it was in development that I found what I actually wanted to do. In July 2024, I got my first “yes” as a developer. For a while I balanced both: analyst by day, dev by night. At 29, I left it all behind and made the full switch. Today I work as a frontend developer at Nuuvem, building interfaces with SvelteKit, TypeScript and Tailwind on "
+	},
+	"stack": {
+		"label": "stack",
+		"title": "With what I build."
 	}
 }
