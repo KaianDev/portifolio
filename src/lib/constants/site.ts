@@ -4,7 +4,7 @@ export const SITE_ORIGIN = PUBLIC_SITE_ORIGIN;
 export const SITE_NAME = 'kaian.dev';
 
 export const OG_IMAGE = {
-	path: '/og2.png',
+	path: '/og.png',
 	width: 566,
 	height: 567,
 	type: 'image/png'
