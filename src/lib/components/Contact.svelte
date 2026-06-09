@@ -1,4 +1,5 @@
 <script lang="ts">
+	/* eslint-disable svelte/no-navigation-without-resolve */
 	import { m } from '$lib/paraglide/messages';
 	import {
 		EnvelopeIcon,
@@ -43,7 +44,7 @@
 				>jkaiandev@gmail.com</a
 			>
 		</div>
-		<div class="grid grid-cols-3 gap-4">
+		<div class="grid lg:grid-cols-3 gap-4">
 			{#each contacts as contact (contact.href)}
 				<a
 					href={contact.href}

@@ -6,7 +6,7 @@
 </script>
 
 <footer class="border-t border-border">
-	<div class="mx-auto flex h-17 max-w-4xl items-center justify-between px-4">
+	<div class="mx-auto flex lg:flex-row flex-col py-6 gap-2 max-w-4xl lg:items-center justify-between px-4">
 		<p class="text-sm text-muted-foreground">
 			&copy; {m['footer.copyright']({ year: new Date().getFullYear() })}
 		</p>

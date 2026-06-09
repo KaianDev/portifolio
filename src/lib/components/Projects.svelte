@@ -16,7 +16,7 @@
 				<li
 					class="group flex flex-col gap-4 rounded-2xl border border-border bg-card p-4 shadow-sm transition-colors duration-300 hover:border-primary"
 				>
-					<header class="flex items-center justify-between">
+					<header class="flex flex-col lg:flex-row gap-2 lg:items-center justify-between">
 						<h3
 							class="font-mono text-lg font-medium transition-colors duration-300 group-hover:text-primary"
 						>
