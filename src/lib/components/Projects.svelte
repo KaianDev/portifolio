@@ -24,13 +24,13 @@
 						</h3>
 						<nav class="flex gap-2">
 							{#if project.link.github}
-								<Button variant="outline" size="sm" href={project.link.github}>
+								<Button variant="outline" size="sm" href={project.link.github} target="_blank" rel="noopener noreferrer">
 									<GithubLogoIcon />
 									{m['projects.github']()}
 								</Button>
 							{/if}
 							{#if project.link.website}
-								<Button variant="outline" size="sm" href={project.link.website}>
+								<Button variant="outline" size="sm" href={project.link.website} target="_blank" rel="noopener noreferrer">
 									<GlobeIcon />
 									{m['projects.website']()}
 								</Button>
