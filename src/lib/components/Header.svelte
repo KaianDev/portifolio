@@ -24,11 +24,11 @@
 
 <header
 	class={[
-		'sticky top-0 z-50 h-17 bg-background/50 p-4 backdrop-blur-sm',
+		'sticky top-0 z-50 h-17 bg-background/50 py-4 backdrop-blur-sm',
 		isScrolled && 'border-b border-border'
 	]}
 >
-	<div class="mx-auto flex max-w-4xl items-center justify-between">
+	<div class="mx-auto flex max-w-4xl px-4 items-center justify-between">
 		<a href="#start" class="font-heading text-lg font-medium"
 			>kaian<span class="text-primary">.dev</span></a
 		>
