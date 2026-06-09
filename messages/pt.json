@@ -53,5 +53,25 @@
 				"body": "Desenvolvedor frontend na Nuuvem, trabalhando no spawnd. Faço parte de uma equipe incrível, onde atuo no desenvolvimento de novas features e na manutenção contínua do produto."
 			}
 		}
+	},
+	"projects": {
+		"label": "projetos",
+		"title": "Alguns dos meus projetos.",
+		"github": "Repositório",
+		"website": "Website",
+		"entries": {
+			"fsw_barber": {
+				"description": "Aplicação de agendamento para barbearia que começou em um curso e foi levada além do escopo original. Além da versão mobile do curso, implementei a versão desktop com skeleton loading, estados de carregamento e animações para uma experiência mais fluida."
+			},
+			"facilitador": {
+				"description": "Ferramenta criada para apoiar analistas de prestação de contas da CREDE 03 — Acaraú na análise de propostas de serviços de engenharia. Automatiza cálculos e oferece explicações detalhadas, agilizando a conferência e padronizando o processo de análise."
+			},
+			"fintrack_challenger": {
+				"description": "Desafio técnico de uma aplicação de controle de finanças pessoais. Permite cadastrar, editar e excluir transações, consome uma API e exibe os dados em gráficos para visualizar as movimentações."
+			},
+			"gg_test": {
+				"description": "Desafio técnico que integra Svelte a um sistema de navegação por gamepad e teclado com a Gamepad API. A prova de conceito demonstra uma interface fluida, controlada inteiramente por dispositivos de entrada alternativos."
+			}
+		}
 	}
 }

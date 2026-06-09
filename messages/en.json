@@ -53,5 +53,25 @@
 				"body": "Frontend developer at Nuuvem, working on spawnd. I'm part of an incredible team, building new features and maintaining the product."
 			}
 		}
+	},
+	"projects": {
+		"label": "projects",
+		"title": "A few things I've built.",
+		"github": "Repository",
+		"website": "Website",
+		"entries": {
+			"fsw_barber": {
+				"description": "A barbershop scheduling app that started as a course project and was taken beyond the original scope. Beyond the mobile version from the course, I built the desktop version with skeleton loading, loading states, and animations for a smoother experience."
+			},
+			"facilitador": {
+				"description": "A tool built to support account analysts at CREDE 03 — Acaraú in reviewing engineering service proposals. Automates calculations and provides detailed explanations, speeding up verification and standardizing the review process."
+			},
+			"fintrack_challenger": {
+				"description": "A technical challenge building a personal finance tracking app. Supports creating, editing, and deleting transactions, consumes an API, and displays data in charts to visualize spending."
+			},
+			"gg_test": {
+				"description": "A technical challenge integrating Svelte with a gamepad and keyboard navigation system using the Gamepad API. The proof of concept demonstrates a fluid interface controlled entirely by alternative input devices."
+			}
+		}
 	}
 }
