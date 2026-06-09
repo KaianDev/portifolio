@@ -48,6 +48,14 @@ Exemplo:
 PUBLIC_SITE_ORIGIN=https://kaiandev.site
 ```
 
+## Deploy (Vercel)
+
+1. Importe o repositório em [vercel.com/new](https://vercel.com/new)
+2. A Vercel detecta SvelteKit e usa `pnpm build` automaticamente
+3. Adicione a variável de ambiente:
+   - `PUBLIC_SITE_ORIGIN` → `https://kaiandev.site` (ou o domínio da Vercel, até configurar o custom domain)
+4. Conecte o domínio `kaiandev.site` em **Settings → Domains**
+
 ## Scripts
 
 | Comando | Descrição |
