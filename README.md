@@ -1,42 +1,84 @@
-# sv
+# kaian.dev — Portfólio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Portfólio pessoal de **Kaian Vasconcelos**, desenvolvedor frontend. Site em [kaiandev.site](https://kaiandev.site).
 
-## Creating a project
+Interfaces que funcionam, construídas com cuidado.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Funcionalidades
 
-```sh
-# create a new project
-npx sv create my-app
-```
+- Seções: hero, sobre, stack, trajetória, projetos e contato
+- Internacionalização (PT/EN) com [Paraglide](https://inlang.com/m/gerre34r/library-inlang-paraglideJs)
+- Tema claro/escuro
+- SEO com Open Graph e Twitter Cards
+- Layout responsivo com menu mobile
 
-To recreate this project with the same configuration:
+## Stack
 
-```sh
-# recreate this project
-pnpm dlx sv@0.15.3 create --template minimal --types ts --add paraglide="languageTags:pt, en+demo:yes" tailwindcss="plugins:typography" prettier eslint --install pnpm portifolio
-```
+- [SvelteKit](https://kit.svelte.dev/) + [Svelte 5](https://svelte.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn-svelte](https://www.shadcn-svelte.com/) / [bits-ui](https://bits-ui.com/)
+- [Vite](https://vite.dev/)
 
-## Developing
+## Desenvolvimento
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+Requisitos: Node.js e [pnpm](https://pnpm.io/).
 
 ```sh
-npm run build
+pnpm install
+cp .env.example .env
+pnpm dev
 ```
 
-You can preview the production build with `npm run preview`.
+O servidor de desenvolvimento inicia em `http://localhost:5173`. Para abrir automaticamente no navegador:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```sh
+pnpm dev -- --open
+```
+
+### Variáveis de ambiente
+
+| Variável | Descrição |
+| --- | --- |
+| `PUBLIC_SITE_ORIGIN` | URL pública do site (canonical, Open Graph, etc.) |
+
+Exemplo:
+
+```env
+PUBLIC_SITE_ORIGIN=https://kaiandev.site
+```
+
+## Scripts
+
+| Comando | Descrição |
+| --- | --- |
+| `pnpm dev` | Servidor de desenvolvimento |
+| `pnpm build` | Build de produção |
+| `pnpm preview` | Preview do build |
+| `pnpm check` | Verificação de tipos |
+| `pnpm lint` | Lint com Prettier e ESLint |
+| `pnpm format` | Formata o código |
+
+## Estrutura
+
+```
+src/
+├── lib/
+│   ├── components/   # Componentes da página
+│   ├── constants/    # Dados estáticos (carreira, stack, links)
+│   └── assets/       # Imagens e ícones
+├── routes/           # Rotas SvelteKit
+messages/             # Traduções (pt, en)
+static/               # Arquivos estáticos (og.jpg, robots.txt)
+```
+
+## Contato
+
+- Site: [kaiandev.site](https://kaiandev.site)
+- GitHub: [@KaianDev](https://github.com/KaianDev)
+- LinkedIn: [kaiandev](https://www.linkedin.com/in/kaiandev)
+- Instagram: [@kaian.dev](https://www.instagram.com/kaian.dev)
+
+## Licença
+
+Projeto pessoal. Todos os direitos reservados.
