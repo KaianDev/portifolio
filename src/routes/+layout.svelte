@@ -4,13 +4,16 @@
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
-	import favicon from '$lib/assets/favicon.svg';
+	import { OG_IMAGE } from '$lib/constants/site';
 	import { ModeWatcher } from 'mode-watcher';
 
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head>
+	<link rel="icon" href={OG_IMAGE.path} type={OG_IMAGE.type} />
+	<link rel="apple-touch-icon" href={OG_IMAGE.path} />
+</svelte:head>
 <ModeWatcher />
 {@render children()}
 
