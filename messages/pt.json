@@ -73,5 +73,8 @@
 				"description": "Desafio técnico que integra Svelte a um sistema de navegação por gamepad e teclado com a Gamepad API. A prova de conceito demonstra uma interface fluida, controlada inteiramente por dispositivos de entrada alternativos."
 			}
 		}
+	},
+	"footer": {
+		"copyright": "{year} Kaian · Construído com SvelteKit, Tailwind e Paraglide."
 	}
 }
