@@ -7,13 +7,11 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 	import Stack from '$lib/components/Stack.svelte';
+	import Seo from '$lib/components/Seo.svelte';
 	import { Meteors } from '$lib/components/ui/meteors';
-	import { m } from '$lib/paraglide/messages';
 </script>
 
-<svelte:head>
-	<title>{m['meta.title']()}</title>
-</svelte:head>
+<Seo />
 
 <main>
 	<Header />

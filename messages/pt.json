@@ -2,7 +2,9 @@
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"hello_world": "Hello, {name} from pt!",
 	"meta": {
-		"title": "kaian.dev - desenvolvedor frontend"
+		"title": "kaian.dev - desenvolvedor frontend",
+		"description": "Interfaces que funcionam, construídas com cuidado.",
+		"ogImageAlt": "Kaian Vasconcelos — desenvolvedor frontend"
 	},
 	"header": {
 		"links": {
