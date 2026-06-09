@@ -14,7 +14,7 @@
 		<ul class="space-y-4">
 			{#each projects as project (project.id)}
 				<li
-					class="group flex flex-col gap-4 rounded-2xl border border-border bg-card p-4 transition-colors duration-300 hover:border-primary shadow-sm"
+					class="group flex flex-col gap-4 rounded-2xl border border-border bg-card p-4 shadow-sm transition-colors duration-300 hover:border-primary"
 				>
 					<header class="flex items-center justify-between">
 						<h3

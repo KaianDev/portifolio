@@ -74,6 +74,11 @@
 			}
 		}
 	},
+	"contact": {
+		"label": "contato",
+		"title": "Vamos construir algo juntos?",
+		"description": "Quer trocar uma ideia, falar sobre frontend ou só dar um oi? Manda mensagem — respondo sempre que dá."
+	},
 	"footer": {
 		"copyright": "{year} Kaian · Construído com SvelteKit, Tailwind e Paraglide."
 	}

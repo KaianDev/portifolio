@@ -30,7 +30,8 @@ export const NAV_LINKS: NavLink[] = [
 
 export const SOCIAL_LINKS = {
 	github: 'https://github.com/kaiandev',
-	linkedin: 'https://www.linkedin.com/in/kaiandev'
+	linkedin: 'https://www.linkedin.com/in/kaiandev',
+	instagram: 'https://www.instagram.com/kaian.dev'
 };
 
 export const EXTERNAL_LINKS = {

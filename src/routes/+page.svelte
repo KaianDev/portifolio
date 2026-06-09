@@ -1,6 +1,7 @@
 <script lang="ts">
 	import About from '$lib/components/About.svelte';
 	import Career from '$lib/components/Career.svelte';
+	import Contact from '$lib/components/Contact.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import Hero from '$lib/components/Hero.svelte';
@@ -24,5 +25,6 @@
 	<Stack />
 	<Career />
 	<Projects />
+	<Contact />
 	<Footer />
 </main>
